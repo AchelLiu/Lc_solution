@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lc_solution1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lc_solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lc_solution.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="update out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/addTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/lengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/longestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/.idea/Lc_solution.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/addTwoNumbers$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/addTwoNumbers$MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/addTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/lengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/longestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/removeNthFromEnd$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/removeNthFromEnd$MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/removeNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/reverseInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/zigzag.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/removeNthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/reverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zigzag.java" beforeDir="false" afterPath="$PROJECT_DIR$/zigzag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +350,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.addTwoNumbers$MainClass">
+  <component name="RunManager" selected="Application.removeNthFromEnd$MainClass">
     <configuration name="addTwoNumbers$MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -419,8 +398,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.addTwoNumbers$MainClass" />
         <item itemvalue="Application.removeNthFromEnd$MainClass" />
+        <item itemvalue="Application.addTwoNumbers$MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -436,6 +415,14 @@
       <option name="presentableId" value="Default" />
       <updated>1640484589950</updated>
     </task>
+    <task id="LOCAL-00001" summary="update out">
+      <created>1640777423975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640777423975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,6 +469,26 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update out" />
+    <option name="LAST_COMMIT_MESSAGE" value="update out" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addTwoNumbers.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addTwoNumbers.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/SOFTWARE/jdk8/src.zip!/java/lang/String.java">

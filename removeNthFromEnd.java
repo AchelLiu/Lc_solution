@@ -22,24 +22,30 @@ class removeNthFromEnd {
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         //how to get the index = length-n: 用一个遍历
         int length = 0;
+        int[] ls = new int[0];
         if(head==null){
             return head;
         }
         ListNode tail = head;
-        ListNode first = tail;
-        while(head != null){
+        ListNode first = null;
+        while(tail != null){
             ++length;
-            System.out.println("length:" +length);
-            if(head.next==null){
+//            System.out.println("length:" +length);
+            if(tail.next==null){
                 break;
             }
-            head = head.next;
-            System.out.println("head:" +head.val);
+//            ls[i]=tail.val;
+            tail = tail.next;
+//            System.out.println("head:" +head.val);
         }
         //怎么保留前index-1个节点：一个不太聪明的思路(abandon)：重新add
-        for(int i=0;i<length-n;i++){
-            tail.next = head.next;
-            tail = tail.next;
+        //困难：怎么取到单个节点？
+        for(int i=0;i<length-n-1;i++){
+            if(first==null){
+                first=tail=head;
+            }else {
+                tail = tail.next = head.next;
+            }
 
         }
         //how to remove the nth-rev node：保留前index-1个节点，让第index-1节点的next指向index+1
@@ -119,7 +125,7 @@ class removeNthFromEnd {
             ListNode l1 = stringToListNode(line1);
             int n = 1;
 
-            ListNode ret = new removeNthFromEnd().removeNthFromEnd_official(l1,n);
+            ListNode ret = new removeNthFromEnd().removeNthFromEnd(l1,n);
 
             String out = listNodeToString(ret);
 

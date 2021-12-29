@@ -32,6 +32,7 @@ class addTwoNumbers {
         while(l1 !=null || l2 !=null){
             //需要先对head判空，如果head为null需要赋值，如果head不为null就不动，最终需要返回的是head
             //机智的做法就是直接new int，放两个node的val，下面这种办法还没有计算进位carry
+            //且如果不new int来接住空节点，会报nullPointer异常: int n1 = l1 !=null ? l1.val :0;
             if(head == null) head = res = new ListNode(l1.val+l2.val);
             else res = res.next = new ListNode(l1.val+l2.val);
             l1 = l1.next;
@@ -122,7 +123,7 @@ class addTwoNumbers {
             ListNode l1 = stringToListNode(line1);
             ListNode l2 = stringToListNode(line2);
 
-            ListNode ret = new addTwoNumbers().addTwoNumbers(l1, l2);
+            ListNode ret = new addTwoNumbers().addTwoNumbers_official(l1, l2);
 
             String out = listNodeToString(ret);
 
