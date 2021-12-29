@@ -117,7 +117,7 @@ class addTwoNumbers {
         }
 
         public static void main(String[] args) {
-            String line1="[1,2,3]";
+            String line1="[]";
             String line2="[4,5,6]";
             ListNode l1 = stringToListNode(line1);
             ListNode l2 = stringToListNode(line2);

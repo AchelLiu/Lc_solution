@@ -21,7 +21,7 @@ class zigzag {
     }
 
     //充分讨论了return 0 的情况
-    public String convert(String s, int numRows) {
+    public String zigzag_official(String s, int numRows) {
 
         if (numRows == 1) return s;
 

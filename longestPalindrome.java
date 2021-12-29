@@ -9,6 +9,7 @@ import java.util.List;
  * 5. Longest Palindromic Substring
  * Given a string s, return the longest palindromic substring in s.
  * solution nums:4470_4
+ * label: dynamic programming
  */
 
 

@@ -119,7 +119,7 @@ class removeNthFromEnd {
             ListNode l1 = stringToListNode(line1);
             int n = 1;
 
-            ListNode ret = new removeNthFromEnd().removeNthFromEnd(l1,n);
+            ListNode ret = new removeNthFromEnd().removeNthFromEnd_official(l1,n);
 
             String out = listNodeToString(ret);
 
