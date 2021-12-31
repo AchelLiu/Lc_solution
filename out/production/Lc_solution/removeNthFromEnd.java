@@ -20,33 +20,26 @@ class removeNthFromEnd {
     }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
-        int[] ls = new int[0];
+        //how to get the index = length-n: 用一个遍历
+        int length = 0;
         if(head==null){
             return head;
         }
-        ListNode tail = head; //复制head
-        ListNode first = new ListNode(0,tail);
-
-        //how to get the index = length-n: 用一个遍历。这一块在标准答案里被封装成了一个函数
-        int length = 0;
-        while(tail != null){
+        ListNode tail = head;
+        ListNode first = tail;
+        while(head != null){
             ++length;
-            if(tail.next==null){
+            System.out.println("length:" +length);
+            if(head.next==null){
                 break;
             }
-//            ls[i]=tail.val;
-            tail = tail.next;  //循环完tail为head的最后一个节点
-//            System.out.println("head:" +head.val);
+            head = head.next;
+            System.out.println("head:" +head.val);
         }
-
-        //怎么保留前index-1个节点：一个不太聪明的思路：重新add
-        //困难：怎么add到想要的位置停住。
+        //怎么保留前index-1个节点：一个不太聪明的思路(abandon)：重新add
         for(int i=0;i<length-n;i++){
-            if(first==null){
-                first=tail=head;
-            }else {
-                tail = tail.next = head.next;
-            }
+            tail.next = head.next;
+            tail = tail.next;
 
         }
         //how to remove the nth-rev node：保留前index-1个节点，让第index-1节点的next指向index+1
@@ -74,26 +67,7 @@ class removeNthFromEnd {
 
 
     public ListNode removeNthFromEnd_official(ListNode head, int n) {
-//        ListNode dummy = new ListNode(0, head);
-        ListNode dummy = head;
-        int length = getLength(head);
-        //链表的赋值操作是什么含义
-//        ListNode cur = dummy;
-        for (int i = 1; i < length - n; ++i) {
-            dummy = dummy.next;
-        }
-        dummy.next = dummy.next.next;
-        ListNode ans = head;
-        return ans;
-    }
-
-    public int getLength(ListNode head) {
-        int length = 0;
-        while (head != null) {
-            ++length;
-            head = head.next;
-        }
-        return length;
+            return head ;
     }
 
     public static class MainClass {
@@ -141,11 +115,11 @@ class removeNthFromEnd {
         }
 
         public static void main(String[] args) {
-            String line1="[1,2,3,4,5]";
+            String line1="[1,2,3]";
             ListNode l1 = stringToListNode(line1);
-            int n = 4;
+            int n = 1;
 
-            ListNode ret = new removeNthFromEnd().removeNthFromEnd_official(l1,n);
+            ListNode ret = new removeNthFromEnd().removeNthFromEnd(l1,n);
 
             String out = listNodeToString(ret);
 
