@@ -74,17 +74,25 @@ class removeNthFromEnd {
 
 
     public ListNode removeNthFromEnd_official(ListNode head, int n) {
-//        ListNode dummy = new ListNode(0, head);
-        ListNode dummy = head;
+        ListNode dummy = new ListNode(0, head);
         int length = getLength(head);
-        //链表的赋值操作是什么含义
-//        ListNode cur = dummy;
+        //链表的赋值操作是什么含义：并不是单纯的复制，感觉是多了一个引用，当修改引用cur.next的时候，head和dummy会相应变动
+        ListNode cur = dummy;
         for (int i = 1; i < length - n; ++i) {
-            dummy = dummy.next;
+            cur = cur.next;
         }
-        dummy.next = dummy.next.next;
-        ListNode ans = head;
+        cur.next = cur.next.next;
+        ListNode ans = dummy.next;
         return ans;
+//        这是一个容易空指针的写法，不借助cur直接在dummy=head上操作，当dummy.next.next为空时，返回head会报空指针
+//        ListNode dummy = head;
+//        for (int i = 1; i < length - n; ++i) {
+//            dummy = dummy.next;
+//        }
+//        dummy.next = dummy.next.next;
+//        ListNode ans = head;
+//        return ans;
+
     }
 
     public int getLength(ListNode head) {
@@ -141,9 +149,9 @@ class removeNthFromEnd {
         }
 
         public static void main(String[] args) {
-            String line1="[1,2,3,4,5]";
+            String line1="[1]";
             ListNode l1 = stringToListNode(line1);
-            int n = 4;
+            int n = 1;
 
             ListNode ret = new removeNthFromEnd().removeNthFromEnd_official(l1,n);
 

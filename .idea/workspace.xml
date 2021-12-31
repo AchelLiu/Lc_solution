@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="linkedlist reiview 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/removeNthFromEnd$MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution1/removeNthFromEnd$MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/removeNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution1/removeNthFromEnd.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/removeNthFromEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -493,31 +495,6 @@
           <url>file://$PROJECT_DIR$/addTwoNumbers.java</url>
           <line>59</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
