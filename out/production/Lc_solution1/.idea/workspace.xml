@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="update out">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/removeNthFromEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +16,12 @@
     <session id="1125120924">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="558" />
+          <entry key="java" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="558" />
+          <entry key="JAVA" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,12 +54,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/removeNthFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="-87">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="class#ListNode#0;class#removeNthFromEnd#0" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
                 <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#removeNthFromEnd#0" />
                 <element signature="method#stringToListNode#0;class#MainClass#0;class#removeNthFromEnd#0" />
                 <element signature="method#listNodeToString#0;class#MainClass#0;class#removeNthFromEnd#0" />
@@ -415,7 +412,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641009013243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641007272464" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -558,9 +555,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49379653" visible="true" weight="0.18216175" />
-      <window_info id="Structure" order="1" sideWeight="0.5062035" side_tool="true" visible="true" weight="0.18216175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4938704" visible="true" weight="0.18216175" />
+      <window_info id="Structure" order="1" sideWeight="0.5061296" side_tool="true" visible="true" weight="0.18216175" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -568,8 +566,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934928" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41434264" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46480745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35192564" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24169987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -633,36 +631,6 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/removeNthFromEnd.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -712,12 +680,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/removeNthFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="-87">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="class#ListNode#0;class#removeNthFromEnd#0" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
             <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#removeNthFromEnd#0" />
             <element signature="method#stringToListNode#0;class#MainClass#0;class#removeNthFromEnd#0" />
             <element signature="method#listNodeToString#0;class#MainClass#0;class#removeNthFromEnd#0" />

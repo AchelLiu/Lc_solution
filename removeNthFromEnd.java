@@ -19,56 +19,52 @@ class removeNthFromEnd {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
+    /**
+     * 总结：这个解法基本抄的标准答案，解决了两个困难点：1）怎么获取链表长度；2）怎么在想要的位置停住，并接上后续。
+     * 链表的赋值并不是完全的复制，似乎只是new了一个引用的变量名
+     *  对变量名本身重写的时候，对原链表没有影响：cur=cur.next, dummy和head都不变
+     *  对变量名.next重写的时候，原链表会跟着变：cur.next=cur.next.next, dummy和head同时去掉了cur.next指向的node
+     *  但是不可以不借助第三个变量cur，在dummy上直接操作，会有空指针的问题
+     */
+
+
     public static ListNode removeNthFromEnd(ListNode head, int n) {
-        //how to get the index = length-n: 用一个遍历
         int length = 0;
-        int[] ls = new int[0];
-        if(head==null){
-            return head;
-        }
+
         ListNode tail = head;
-        ListNode first = null;
+
+        //how to get the index = length-n: 用一个遍历
         while(tail != null){
             ++length;
-//            System.out.println("length:" +length);
             if(tail.next==null){
                 break;
             }
-//            ls[i]=tail.val;
             tail = tail.next;
-//            System.out.println("head:" +head.val);
         }
-        //怎么保留前index-1个节点：一个不太聪明的思路(abandon)：重新add
-        //困难：怎么取到单个节点？
-        for(int i=0;i<length-n-1;i++){
-            if(first==null){
-                first=tail=head;
-            }else {
-                tail = tail.next = head.next;
-            }
 
+        //怎么保留前index-1个节点：一个不太聪明的思路：重新add
+        //困难：怎么停在想要的位置，并且接上后面的next.next？
+        ListNode dummy = new ListNode(0,head);
+        ListNode cur = dummy;
+        for(int i=0;i<length-n;i++){
+            cur=cur.next;
         }
+
         //how to remove the nth-rev node：保留前index-1个节点，让第index-1节点的next指向index+1
-        //add()
-//        for(int i =0;i<5;i++){
-//            ListNode l = new ListNode(i);
-//            if(tail == null){
-//                head = tail = l;
-//            }else{
-//                tail.next = l;
-//                tail = tail.next;
-//                System.out.println("tail val:"+tail.val);
-//            }
+        cur.next=cur.next.next;
+        ListNode ans = dummy.next;
+        return ans;
+
+//        //这种写法就在[2]这种链表的时候操作返回空指针
+//        ListNode dummy = new ListNode(0,head);
+//        for(int i=0;i<length-n+1;i++){
+//            dummy=dummy.next;
 //        }
-//        //removeLast()
-//        for(int i=0;i<n;i++){
-//            if(tail==null) return tail;
-//            else{
-//                continue;
-//            }
 //
-//        }
-        return first;
+//        //how to remove the nth-rev node：保留前index-1个节点，让第index-1节点的next指向index+1
+//        dummy.next=dummy.next.next;
+//        ListNode ans = dummy.next;
+//        return ans;
     }
 
 
@@ -121,7 +117,7 @@ class removeNthFromEnd {
         }
 
         public static void main(String[] args) {
-            String line1="[1,2,3]";
+            String line1="[1]";
             ListNode l1 = stringToListNode(line1);
             int n = 1;
 
