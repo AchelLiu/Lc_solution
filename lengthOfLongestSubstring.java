@@ -12,7 +12,7 @@ import java.util.HashSet;
 
 class lengthOfLongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
-        //双指针+HashSet
+        //双循环+HashSet
         int size = 1;
         if(s.length()==0||s == null){
             size = 0;
