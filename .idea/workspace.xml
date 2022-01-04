@@ -4,8 +4,16 @@
     <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="update out">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/threeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution1/threeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letterCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/letterCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/tmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers$MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/recursion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution_nums_asc.md" beforeDir="false" afterPath="$PROJECT_DIR$/solution_nums_asc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/precticeFunc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +29,27 @@
     <session id="1125120924">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2762" />
-          <entry key="md" value="49" />
+          <entry key="java" value="3919" />
+          <entry key="md" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2762" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="JAVA" value="3919" />
+          <entry key="PLAIN_TEXT" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="19" />
+          <entry key="log" value="1" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="19" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -59,53 +68,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution_nums_asc.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/letterCombinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="e#69#78#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java">
+        <entry file="file://$PROJECT_DIR$/letterCombinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="257">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/removeNthFromEnd.java">
+        <entry file="file://$PROJECT_DIR$/recursion/precticeFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="352">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
               <folding>
-                <element signature="class#ListNode#0;class#removeNthFromEnd#0" />
-                <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#removeNthFromEnd#0" />
-                <element signature="method#stringToListNode#0;class#MainClass#0;class#removeNthFromEnd#0" />
-                <element signature="method#listNodeToString#0;class#MainClass#0;class#removeNthFromEnd#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#160#169#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+                <element signature="class#ListNode#0;class#reverseList#0;class#precticeFunc#0" />
+                <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
+                <element signature="method#stringToListNode#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
+                <element signature="method#listNodeToString#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -139,14 +147,16 @@
       <list>
         <option value="$PROJECT_DIR$/addTwoNumbers.java" />
         <option value="$PROJECT_DIR$/removeNthFromEnd.java" />
-        <option value="$PROJECT_DIR$/solution_nums_asc.md" />
-        <option value="$PROJECT_DIR$/searchRange.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/threeSum.java" />
-        <option value="$PROJECT_DIR$/letterCombinations.java" />
         <option value="$PROJECT_DIR$/tmp.java" />
+        <option value="$PROJECT_DIR$/recursion/tmp.java" />
+        <option value="$PROJECT_DIR$/solution_nums_asc.md" />
+        <option value="$PROJECT_DIR$/searchRange.java" />
         <option value="$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java" />
+        <option value="$PROJECT_DIR$/recursion/precticeFunc.java" />
+        <option value="$PROJECT_DIR$/letterCombinations.java" />
       </list>
     </option>
   </component>
@@ -427,7 +437,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641282908035" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641311612904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -435,6 +445,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -454,40 +467,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.addTwoNumbers$MainClass">
-    <configuration name="addTwoNumbers$MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addTwoNumbers$MainClass" />
-      <module name="recursion" />
+  <component name="RunManager" selected="Application.precticeFunc$Duck">
+    <configuration name="precticeFunc$Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$Duck" />
+      <module name="Lc_solution1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeNthFromEnd$MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="removeNthFromEnd$MainClass" />
+    <configuration name="precticeFunc$Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$Fibonacci" />
       <module name="Lc_solution1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchRange" />
+    <configuration name="precticeFunc$frogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$frogJump" />
       <module name="Lc_solution1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threeSum" />
+    <configuration name="precticeFunc$permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$permutation" />
       <module name="Lc_solution1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tmp" />
+    <configuration name="precticeFunc$reverseList$MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$reverseList$MainClass" />
       <module name="Lc_solution1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -516,19 +557,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.removeNthFromEnd$MainClass" />
-      <item itemvalue="Application.searchRange" />
-      <item itemvalue="Application.threeSum" />
-      <item itemvalue="Application.tmp" />
-      <item itemvalue="Application.addTwoNumbers$MainClass" />
+      <item itemvalue="Application.precticeFunc$Fibonacci" />
+      <item itemvalue="Application.precticeFunc$frogJump" />
+      <item itemvalue="Application.precticeFunc$reverseList$MainClass" />
+      <item itemvalue="Application.precticeFunc$permutation" />
+      <item itemvalue="Application.precticeFunc$Duck" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.addTwoNumbers$MainClass" />
-        <item itemvalue="Application.tmp" />
-        <item itemvalue="Application.threeSum" />
-        <item itemvalue="Application.searchRange" />
-        <item itemvalue="Application.removeNthFromEnd$MainClass" />
+        <item itemvalue="Application.precticeFunc$Duck" />
+        <item itemvalue="Application.precticeFunc$permutation" />
+        <item itemvalue="Application.precticeFunc$reverseList$MainClass" />
+        <item itemvalue="Application.precticeFunc$frogJump" />
+        <item itemvalue="Application.precticeFunc$Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -556,9 +597,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49380806" visible="true" weight="0.1617536" />
-      <window_info id="Structure" order="1" sideWeight="0.50619197" side_tool="true" weight="0.18216175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5740072" visible="true" weight="0.24187453" />
+      <window_info id="Structure" order="1" sideWeight="0.4259928" side_tool="true" visible="true" weight="0.24187453" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -566,12 +608,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934928" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21912351" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26427624" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39575034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934928" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42762285" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32934928" />
       <window_info anchor="bottom" id="Problems" order="10" />
@@ -625,24 +667,6 @@
     <MESSAGE value="update out" />
     <option name="LAST_COMMIT_MESSAGE" value="update out" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tmp.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tmp.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/SOFTWARE/jdk8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,56 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3265#3280#0" expanded="true" />
-            <element signature="e#4262#4271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="method#lengthOfLongestSubstring_official#0;class#lengthOfLongestSubstring#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2432">
-          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution_nums_asc.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/removeNthFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
@@ -742,27 +716,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letterCombinations.java">
+    <entry file="file://$PROJECT_DIR$/addTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        <state relative-caret-position="372">
+          <caret line="75" column="11" selection-start-line="75" selection-end-line="132" />
+          <folding>
+            <element signature="class#ListNode#0;class#addTwoNumbers#0" />
+            <element signature="class#MainClass#0;class#addTwoNumbers#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.java">
+    <entry file="file://$PROJECT_DIR$/hs_err_pid6636.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="4579">
+          <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
-            <element signature="e#69#78#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="method#lengthOfLongestSubstring_official#0;class#lengthOfLongestSubstring#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution_nums_asc.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="361">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursion/precticeFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#169#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="class#ListNode#0;class#reverseList#0;class#precticeFunc#0" />
+            <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
+            <element signature="method#stringToListNode#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
+            <element signature="method#listNodeToString#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letterCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,7 +865,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Lc_solution</last-edited>
+          <last-edited>recursion</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

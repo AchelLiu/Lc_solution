@@ -1,3 +1,5 @@
+package recursion;
+
 import java.util.Objects;
 
 /**
@@ -28,6 +30,13 @@ class addTwoNumbers_Recursion {
         /* 返回next节点即可 */
         return nullNode.next;
     }
+
+    /**
+     * @param a 本次循环输入的第一个链表node
+     * @param b 本次循环输入的第二个链表node
+     * @param curr 输出的链表种当前指向的node
+     * @param flag 是否需要进位
+     */
 
     public void addTwoNumbers(ListNode a, ListNode b, ListNode curr, boolean flag) {
         /* a b 皆为null， 终止递归 */

@@ -4,8 +4,8 @@
 7. Reverse Integer 5707 35.1% 中等  [done]
 **5. Longest Palindromic Substring 4470 35.9% 中等 [half_done]**
 19. Remove Nth Node From End of List 4448 43.3% 中等 [done]
-34. Find First and Last Position of Element in Sorted Array 3747 42.3%
-15. 3Sum 3484 34.1% 中等
+34. Find First and Last Position of Element in Sorted Array 3747 42.3% [done]
+**15. 3Sum 3484 34.1% 中等 [half_done]**
 17. Letter Combinations of a Phone Number 3435 57.5% 中等
 11. Container With Most Water 3367 62.3% 中等
 46. Permutations 3060 78.4% 中等
