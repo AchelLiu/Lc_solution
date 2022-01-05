@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="update out">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/letterCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/letterCombinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution1/tmp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers$MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/recursion/addTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/recursion.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/searchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution_nums_asc.md" beforeDir="false" afterPath="$PROJECT_DIR$/solution_nums_asc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/precticeFunc.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,101 +12,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1125120924">
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3919" />
-          <entry key="md" value="60" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3919" />
-          <entry key="PLAIN_TEXT" value="60" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="19" />
-          <entry key="log" value="1" />
-          <entry key="md" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="19" />
-          <entry key="PLAIN_TEXT" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution_nums_asc.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/letterCombinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recursion/precticeFunc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#160#169#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1422#1423#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1743#1744#0" expanded="true" />
-                <element signature="class#ListNode#0;class#reverseList#0;class#precticeFunc#0" />
-                <element signature="method#stringToIntegerArray#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
-                <element signature="method#stringToListNode#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
-                <element signature="method#listNodeToString#0;class#MainClass#0;class#reverseList#0;class#precticeFunc#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recursion/addTwoNumbers_Recursion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -455,18 +348,6 @@
       <recent name="C:\Users\jessi\Documents\Lc_solution\recursion" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.precticeFunc$Duck">
     <configuration name="precticeFunc$Duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.precticeFunc$Duck" />
@@ -573,7 +454,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -639,29 +520,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update out" />

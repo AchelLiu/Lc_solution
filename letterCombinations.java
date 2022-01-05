@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,10 +15,27 @@ import java.util.List;
 
 
 class letterCombinations {
-//    public static ArrayList letterCombinations(String s) {
-//
-//    }
-//
+    public static List<String> letterCombinations(String s) {
+        List<List<String>> ls = null;
+        //ls赋值
+        List<String> res = ls.get(0);
+        for(int i=0;i<ls.toArray().length;i++){
+            res = conbine(res,ls.get(i));
+        }
+        return res;
+    }
+    public static List<String> conbine(List<String> a, List<String> b){
+        List<String> tmp = null;
+        if(a == null) return b;
+        if(b == null) return a;
+        for(int i=0;i<a.size();i++){
+            for(int j=0;j<b.size();j++){
+                tmp.add(a.get(i)+b.get(j));
+            }
+        }
+        return tmp;
+    }
+
 //    public static void main(String args[]){
 //
 //    }
