@@ -15,19 +15,30 @@ import java.util.List;
 
 
 class letterCombinations {
-    public static List<String> letterCombinations(String s) {
-        List<List<String>> ls = null;
-        //ls赋值
-        List<String> res = ls.get(0);
-        for(int i=0;i<ls.toArray().length;i++){
-            res = conbine(res,ls.get(i));
+    public static List<String> letterCombinations(String digits) {
+        List<List<String>> ls = new ArrayList<List<String>>(){{
+            add(Arrays.asList(""));
+            add(Arrays.asList(""));
+            add(Arrays.asList("a","b","c"));
+            add(Arrays.asList("d","e","f"));
+            add(Arrays.asList("g","h","i"));
+            add(Arrays.asList("j","k","l"));
+            add(Arrays.asList("m","n","o"));
+            add(Arrays.asList("p","q","r","s"));
+            add(Arrays.asList("t","u","v"));
+            add(Arrays.asList("w","x","y","z"));
+        }};
+        List<String> res = new ArrayList<>();
+        //decode digits to list
+        for(char i:digits.toCharArray()){
+            res = combine(res,ls.get(Integer.parseInt(String.valueOf(i))));
         }
         return res;
     }
-    public static List<String> conbine(List<String> a, List<String> b){
-        List<String> tmp = null;
-        if(a == null) return b;
-        if(b == null) return a;
+    public static List<String> combine(List<String> a, List<String> b){
+        List<String> tmp = new ArrayList<>();
+        if(a.size()==0) return b;
+        if(b.size()==0) return a;
         for(int i=0;i<a.size();i++){
             for(int j=0;j<b.size();j++){
                 tmp.add(a.get(i)+b.get(j));
@@ -36,7 +47,8 @@ class letterCombinations {
         return tmp;
     }
 
-//    public static void main(String args[]){
-//
-//    }
+    public static void main(String args[]){
+        String s = "234";
+        System.out.println(letterCombinations(s));
+    }
 }
