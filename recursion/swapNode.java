@@ -1,5 +1,6 @@
 package recursion;
 
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -22,37 +23,21 @@ class swapNode {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    /* 哨兵节点 */
-//    ListNode dummy = new ListNode(0,head);
-
-//    public static ListNode swapNode(ListNode head) {
-//        if(head == null || head.next==null){
-//            return head;
-//        }
-//        ListNode cur = head;
-//        ListNode res = swapNode(head.next.next);
-//        head = head.next;
-//        head.next = cur;
-//        cur.next=cur.next.next;
-//        return  res;
-//    }
-
-
     public static ListNode swapNode(ListNode head) {
-//        ListNode dummy = new ListNode(0,head);
-        ListNode res = swapNodes(head);
-        return res;
-    }
-    public static ListNode swapNodes(ListNode head){
+        //寻找递归终结 √
         if(head == null || head.next==null){
             return head;
         }
-        swapNodes(head.next);
-        ListNode dummy=head.next;
+        //递归块：没想明白是啥传进来，啥传出去，功能是啥。
+        //传进来一个head，f=把head和它的next交换位置，
+//        swapNode(head.next.next);
+        ListNode dummy=head.next; //功能实现：√没问题，把第二个node给新节点
 
-        head.next=head.next.next;
-        dummy.next=head;
-        return dummy;
+        head.next=head.next.next;//这一环是递归块
+
+        dummy.next=head; //功能实现：√没问题，把原head节点给dummy.next
+        head = dummy;
+        return head;
     }
 
     public static class MainClass {
@@ -100,7 +85,7 @@ class swapNode {
         }
 
         public static void main(String[] args) {
-            String line1="[1,2,3,4]";
+            String line1="[1,2,3,4,5,6]";
             ListNode head = stringToListNode(line1);
 
             ListNode ret =swapNode(head);

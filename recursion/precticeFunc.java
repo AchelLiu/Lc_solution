@@ -89,10 +89,13 @@ public class precticeFunc {
             ListNode(int val, ListNode next) { this.val = val; this.next = next; }
         }
         public static ListNode f(ListNode head){
+            //递归结束条件
             if(head==null||head.next==null){
                 return head;
             }
+            //递归块：递归功能使用，定义啥东西进入递归缓存。ans里面存的是第一个return的东西
             ListNode ans = f(head.next);
+            //递归功能实现：这个函数是要反转链表，打断原来的head和它的next，指向相反方向，且是单向链表
             head.next.next = head;
             head.next = null;
             return ans;
