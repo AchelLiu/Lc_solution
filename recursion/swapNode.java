@@ -24,20 +24,31 @@ class swapNode {
     }
 
     public static ListNode swapNode(ListNode head) {
-        //寻找递归终结 √
+        //寻找递归终结 ： 递归的终止条件是链表中没有节点，或者链表中只有一个节点，此时无法进行交换。
         if(head == null || head.next==null){
             return head;
         }
         //递归块：没想明白是啥传进来，啥传出去，功能是啥。
-        //传进来一个head，f=把head和它的next交换位置，
+        //传进来一个head，f=把head和它的next交换位置。输出的是新head。找到新head和老head的关系：新head是被交换后的第二个节点（原head）的next
+
+        //原本的写法：
 //        swapNode(head.next.next);
-        ListNode dummy=head.next; //功能实现：√没问题，把第二个node给新节点
-
-        head.next=head.next.next;//这一环是递归块
-
-        dummy.next=head; //功能实现：√没问题，把原head节点给dummy.next
-        head = dummy;
-        return head;
+//        ListNode dummy=head.next; //功能实现√：把第二个node给新节点
+//        head.next=head.next.next;//这种写法没有把新的头节点放到递归里
+//        dummy.next=head; //功能实现√：把原head节点给dummy.next
+//        head = dummy;
+//        return head;
+        
+//        如果链表中至少有两个节点，则在两两交换链表中的节点之后，原始链表的头节点变成新的链表的第二个节点，原始链表的第二个节点变成新的链表的头节点。
+//        链表中的其余节点的两两交换可以递归地实现。在对链表中的其余节点递归地两两交换之后，更新节点之间的指针关系，即可完成整个链表的两两交换。
+//        用 head 表示原始链表的头节点，新的链表的第二个节点，用 newHead 表示新的链表的头节点，原始链表的第二个节点，则原始链表中的其余节点的头节点是 newHead.next。
+//        令 head.next = swapPairs(newHead.next)，表示将其余节点进行两两交换，交换后的新的头节点为 head 的下一个节点。
+//        然后令 newHead.next = head，即完成了所有节点的交换。最后返回新的链表的头节点 newHead。
+        //标准答案的写法：
+        ListNode newHead = head.next;
+        head.next=swapNode(newHead.next);//原始链表中的其余节点的头节点是 newHead.next， head.next = swapPairs(newHead.next)，表示将其余节点进行两两交换，交换后的新的头节点为 head 的下一个节点。
+        newHead.next=head;
+        return newHead;
     }
 
     public static class MainClass {

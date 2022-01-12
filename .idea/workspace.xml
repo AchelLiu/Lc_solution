@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f9b7ad1-4961-4495-88c5-87b5d0d657e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$Duck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$reverseList$MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$reverseList$MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$reverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/precticeFunc$reverseList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode$ListNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode$MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode$MainClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lc_solution/recursion/swapNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/precticeFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/precticeFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recursion/swapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/swapNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -373,7 +376,7 @@
       <recent name="C:\Users\jessi\Documents\Lc_solution\recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.precticeFunc$reverseList$MainClass">
+  <component name="RunManager" selected="Application.swapNode$MainClass">
     <configuration name="addTwoNumbers_Recursion$MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.addTwoNumbers_Recursion$MainClass" />
       <module name="Lc_solution" />
@@ -576,9 +579,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.swapNode$MainClass" />
         <item itemvalue="Application.precticeFunc$reverseList$MainClass" />
         <item itemvalue="Application.addTwoNumbers_Recursion$MainClass" />
-        <item itemvalue="Application.swapNode$MainClass" />
         <item itemvalue="Application.letterCombinations_backtrack" />
         <item itemvalue="Application.letterCombinations" />
       </list>
@@ -687,6 +690,21 @@
           <url>file://$PROJECT_DIR$/recursion/precticeFunc.java</url>
           <line>99</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/recursion/swapNode.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/recursion/swapNode.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/recursion/swapNode.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
