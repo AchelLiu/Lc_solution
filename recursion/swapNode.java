@@ -34,7 +34,7 @@ class swapNode {
         //原本的写法：
 //        swapNode(head.next.next);
 //        ListNode dummy=head.next; //功能实现√：把第二个node给新节点
-//        head.next=head.next.next;//这种写法没有把新的头节点放到递归里
+//        head.next=dummy.next;//这种写法没有把新的头节点放到递归里
 //        dummy.next=head; //功能实现√：把原head节点给dummy.next
 //        head = dummy;
 //        return head;
